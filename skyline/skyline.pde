@@ -10,8 +10,8 @@ moon ruby;
 void setup()
 {
   size(800,529);
-  b = loadImage("skylinebackground.jpg");
-  
+  b = loadImage("http://upload.wikimedia.org/wikipedia/en/5/5f/Original_Doge_meme.jpg");
+  b.resize(800,529);
   background(b);
   smooth();
   noStroke();
